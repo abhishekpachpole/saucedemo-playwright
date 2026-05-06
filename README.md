@@ -3,17 +3,18 @@
 Automated test suite for [SauceDemo](https://www.saucedemo.com) e-commerce site built with Playwright and JavaScript.
 
 ## Framework Structure
-src/
-├── pages/          # Page Object Model classes
-│   ├── LoginPage.js
-│   ├── InventoryPage.js
-│   ├── CartPage.js
-│   └── CheckoutPage.js
-└── tests/          # Test suites
-├── login.spec.js
-├── inventory.spec.js
-├── cart.spec.js
-└── checkout.spec.js
+
+src/pages/ — Page Object Model classes
+- LoginPage.js
+- InventoryPage.js
+- CartPage.js
+- CheckoutPage.js
+
+src/tests/ — Test suites
+- login.spec.js
+- inventory.spec.js
+- cart.spec.js
+- checkout.spec.js
 
 ## Test Coverage
 - Login — valid, invalid, empty credentials
