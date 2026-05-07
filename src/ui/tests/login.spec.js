@@ -22,6 +22,13 @@ test('should show error with empty fields', async ({ page }) => {
     expect(await loginPage.isErrorVisible()).toBe(true);
 });
 
+test('should show error for locked out user', async ({ page }) => {
+    const loginPage = new LoginPage(page);
+  await loginPage.navigate();
+  await loginPage.login('locked_out_user', 'secret_sauce');
+  expect(await loginPage.isErrorVisible()).toBe(true);
+});
+
 
 // test('should login with valid credentials', async ({ page }) => {
 //     await page.goto('/');
