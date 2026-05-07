@@ -1,3 +1,5 @@
+[![Playwright Tests](https://github.com/abhishekpachpole/saucedemo-playwright/actions/workflows/playwright.yml/badge.svg)](https://github.com/abhishekpachpole/saucedemo-playwright/actions/workflows/playwright.yml)
+
 # SauceDemo Playwright Automation Framework
 
 Automated test suite for [SauceDemo](https://www.saucedemo.com) e-commerce site built with Playwright and JavaScript.
